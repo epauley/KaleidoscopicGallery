@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home - Kaleidoscopic Gallery
+---
+
+<div class="imgGallery">
+	{% for photo in site.data.photos %}
+		<div class="imgContainer">
+			<img src="{{ photo.source }}">
+		</div>
+	{% endfor %}
+</div>

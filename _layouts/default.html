@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery.cycle2.video.min.js"></script>
+  </head>
+
+  <body>
+    <div class="templateContainer">
+
+    	<div class="sidebar">
+    		<h1>Kaleidoscopic Gallery</h1>
+    		<p>I have a wide range of interests that I like to explore and felt they need their own dedicated space. This is everything from my amateur skills at photography, to my practice and exploration of Illustrator, to the "Doesn't fit in the box" type stuff.</p>
+
+        {% include navigation.html %}
+    	</div>
+
+    	<main>
+        {{ content }}
+    	</main>
+
+    </div>
+
+  </body>
+
+</html>
