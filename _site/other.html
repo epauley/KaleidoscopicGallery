@@ -7,20 +7,33 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
+    <script src="js/index.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.cycle2.min.js"></script>
     <script src="js/jquery.cycle2.video.min.js"></script>
   </head>
 
   <body>
-    <div class="templateContainer">
-
-    	<div class="sidebar">
-    		<h1>Kaleidoscopic Gallery</h1>
-    		<p>I have a wide range of interests that I like to explore and felt they need their own dedicated space. This is everything from my amateur skills at photography, to my practice and exploration of Illustrator, to the "Doesn't fit in the box" type stuff.</p>
-
-        <nav id="nav" class="bracket-effect">
-  <ul class="animatedunderlinemenu">
+    <!-- Navigation Area -->
+    <header>
+      <div class="headerContent">
+        <!-- Logo -->
+        <h1 class="brand">Kaleidoscopic Gallery</h1>
+        <p class="purpose">This is everything from my amateur skills at photography, to my practice and exploration of Illustrator, to the "Doesn't fit in the box" type stuff.</p>
+      </div>
+      <!-- Hamburger icon -->
+      <button id="toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="menu" onClick="toggleMenu()">
+        <span class="button-icon" aria-hidden>
+          <svg viewBox="0 0 100 80" width="40" height="40" fill="currentcolor">
+            <rect width="100" height="12" rx="8"></rect>
+            <rect y="34" width="100" height="12" rx="8"></rect>
+            <rect y="68" width="100" height="12" rx="8"></rect>
+        </svg>
+        </span>
+      </button>
+      <!-- Menu -->
+      <nav id="nav" class="bracket-effect">
+  <ul id="menu" class="animatedunderlinemenu">
     
       <li><a href="/">Photography</a></li>
     
@@ -31,10 +44,11 @@
   </ul>
 </nav>
 
-    	</div>
+    </header>
 
-    	<main>
-        <div class="otherGallery">
+    <!-- Main content -->
+  	<main>
+      <div class="otherGallery">
 	<div class="tile">
 
 		<div class="cycle-slideshow"
@@ -127,9 +141,7 @@
 	</div>
 </div>
 
-    	</main>
-
-    </div>
+  	</main>
 
   </body>
 
