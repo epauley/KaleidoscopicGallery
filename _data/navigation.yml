@@ -1,6 +1,6 @@
 - name: Photography
-  link: /
+  link: ../
 - name: Illustrator
-  link: /illustrator.html
+  link: ../illustrator.html
 - name: Other
-  link: /other.html
+  link: ../other.html
