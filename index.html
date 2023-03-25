@@ -3,10 +3,10 @@ layout: default
 title: Home - Kaleidoscopic Gallery
 ---
 
-<div class="imgGallery">
+<div class="imgGallery" role="grid" aria-label="Image Gallery">
 	{% for photo in site.data.photos %}
 		<div class="imgContainer">
-			<img src="{{ photo.source }}">
+			<img src="{{ photo.source }}" alt="{{photo.altText}}">
 		</div>
 	{% endfor %}
 </div>

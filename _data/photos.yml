@@ -1,27 +1,27 @@
-- name: Photography
+- name: Pretty in Pink
   source: images/20220811_102558.jpg
-  altText: Pink Flower
-- name: Photography
+  altText: Focus on pink flower in flower garden
+- name: Fun Fungi
   source: images/20200911_123549.jpg
-  altText: Wavey fungi on log
-- name: Photography
+  altText: Wavy fungi on fallen log
+- name: Red Dusk
   source: images/20210923_073005.jpg
-  altText: Red Mountains at Dusk
-- name: Photography
+  altText: Red Mountains at dusk with moon shining behind thm
+- name: Colorful Cottages
   source: images/20220811_093807.jpg
-  altText: Colorful Cottages
-- name: Photography
+  altText: Colorful cottage style row houses with brick road in front
+- name: Dusk At The Grand Canyon
   source: images/20210926_181557.jpg
-  altText: Grand Canyon at Dusk
-- name: Photography
+  altText: View into the Grand Canyon at dusk
+- name: Portal to Garden
   source: images/20221022_160439.jpg
-  altText: Stone Arch with Open Gate
-- name: Photography
+  altText: Stone Arch with Open Metal Gate
+- name: Cove at Horseshoe Bay
   source: images/20221022_141157.jpg
-  altText: Burmuda Coastline
-- name: Photography
+  altText: Rocky cove at Horseshoe Bay beach in Burmuda
+- name: Seeing Double
   source: images/20221024_073157.jpg
   altText: Double rainbow over the ocean
-- name: Photography
+- name: Zion Valley at Sunrise
   source: images/20210923_091111.jpg
-  altText: Zion Valley at Sunrise
+  altText: View into Zion Valley at Sunrise from trail
