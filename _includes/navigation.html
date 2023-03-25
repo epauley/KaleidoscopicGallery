@@ -1,7 +1,7 @@
 <nav id="nav" class="bracket-effect">
   <ul id="menu" class="animatedunderlinemenu">
-    {% for item in site.data.navigation %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+    {% for page in site.pages %}
+      <li><a href="{{ page.filename }}">{{ page.label }}</a></li>
     {% endfor %}
   </ul>
 </nav>
