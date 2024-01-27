@@ -1,0 +1,9 @@
+- name: Interactive Character
+  source: images/interactiveCharacterAnimation.png
+  altText: Female character in the woods.
+- name: Interactive Object
+  source: images/interactiveObjectAnimation.png
+  altText: Radio sitting on desk.
+- name: I Heart Steampunk
+  source: images/SteamPunk.png
+  altText: I heart steampunk where the heart is represented in heart shape with gears inside.

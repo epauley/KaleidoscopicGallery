@@ -1,0 +1,14 @@
+---
+layout: default
+title: Design - Kaleidoscopic Gallery
+label: Design
+filename: design.html
+---
+
+<div class="designGallery" role="grid" aria-label="Design Image Gallery">
+  {% for design in site.data.designs %}
+  <div class="imgContainer">
+    <img src="{{ design.source }}" alt="{{design.altText}}" />
+  </div>
+  {% endfor %}
+</div>
